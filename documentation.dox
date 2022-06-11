@@ -7,10 +7,4 @@
  *
  * @defgroup Capabilities Capabilities
  * @brief Capabilities
- * 
- * @defgroup Callbacks Callbacks
- * @brief Callbacks
- *
- * @defgroup Override Override
- * @brief overrides of request handler
  **/ 
