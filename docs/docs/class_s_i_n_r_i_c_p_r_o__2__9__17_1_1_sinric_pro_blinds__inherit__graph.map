@@ -1,0 +1,10 @@
+<map id="SinricProBlinds" name="SinricProBlinds">
+<area shape="rect" id="node1" title="Device to control interior blinds." alt="" coords="573,89,684,116"/>
+<area shape="rect" id="node2" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="378,5,491,32"/>
+<area shape="rect" id="node3" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title=" " alt="" coords="354,57,515,98"/>
+<area shape="rect" id="node4" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title="PushNotification." alt="" coords="19,64,166,91"/>
+<area shape="rect" id="node5" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title=" " alt="" coords="363,122,507,163"/>
+<area shape="rect" id="node6" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title="PowerStateController." alt="" coords="5,129,180,156"/>
+<area shape="rect" id="node7" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_range_controller.html" title=" " alt="" coords="345,187,524,229"/>
+<area shape="rect" id="node8" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_range_controller.html" title="RangeControllerFloatInt." alt="" coords="20,195,165,221"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="SinricProGarageDoor" name="SinricProGarageDoor">
+<area shape="rect" id="node1" title="Device to control a garage door." alt="" coords="569,64,713,91"/>
+<area shape="rect" id="node2" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="379,5,492,32"/>
+<area shape="rect" id="node3" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title=" " alt="" coords="355,57,516,98"/>
+<area shape="rect" id="node4" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title="PushNotification." alt="" coords="5,64,152,91"/>
+<area shape="rect" id="node5" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_door_controller.html" title=" " alt="" coords="351,122,520,163"/>
+<area shape="rect" id="node6" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_door_controller.html" title="DoorController &#45; only used for GarageDoor device and cannot used as capability for a custom device!" alt="" coords="11,129,146,156"/>
+</map>

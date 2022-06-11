@@ -1,0 +1,10 @@
+<map id="SinricProFan" name="SinricProFan">
+<area shape="rect" id="node1" title="Device to turn on / off a fan and change it&#39;s speed by using powerlevel." alt="" coords="543,89,640,116"/>
+<area shape="rect" id="node2" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="356,5,469,32"/>
+<area shape="rect" id="node3" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title=" " alt="" coords="332,57,493,98"/>
+<area shape="rect" id="node4" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title="PushNotification." alt="" coords="19,64,166,91"/>
+<area shape="rect" id="node5" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title=" " alt="" coords="341,122,485,163"/>
+<area shape="rect" id="node6" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title="PowerStateController." alt="" coords="5,129,180,156"/>
+<area shape="rect" id="node7" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_level_controller.html" title=" " alt="" coords="341,187,484,229"/>
+<area shape="rect" id="node8" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_level_controller.html" title="PowerLevelController." alt="" coords="6,195,179,221"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="SinricProTV" name="SinricProTV">
+<area shape="rect" id="node1" title="Device to control a TV." alt="" coords="580,217,671,244"/>
+<area shape="rect" id="node2" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="371,5,485,32"/>
+<area shape="rect" id="node3" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title=" " alt="" coords="347,57,509,98"/>
+<area shape="rect" id="node4" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title="PushNotification." alt="" coords="19,64,166,91"/>
+<area shape="rect" id="node5" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title=" " alt="" coords="356,122,500,163"/>
+<area shape="rect" id="node6" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title="PowerStateController." alt="" coords="5,129,180,156"/>
+<area shape="rect" id="node7" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_volume_controller.html" title=" " alt="" coords="345,187,511,229"/>
+<area shape="rect" id="node8" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_volume_controller.html" title="VolumeController." alt="" coords="17,195,169,221"/>
+<area shape="rect" id="node9" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_mute_controller.html" title=" " alt="" coords="329,253,527,280"/>
+<area shape="rect" id="node10" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_mute_controller.html" title="MuteController." alt="" coords="24,253,161,280"/>
+<area shape="rect" id="node11" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_media_controller.html" title=" " alt="" coords="325,304,531,331"/>
+<area shape="rect" id="node12" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_media_controller.html" title="MediaController." alt="" coords="21,304,164,331"/>
+<area shape="rect" id="node13" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_input_controller.html" title=" " alt="" coords="329,355,527,381"/>
+<area shape="rect" id="node14" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_input_controller.html" title="InputController." alt="" coords="25,355,161,381"/>
+<area shape="rect" id="node15" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_channel_controller.html" title=" " alt="" coords="362,406,494,447"/>
+<area shape="rect" id="node16" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_channel_controller.html" title="ChannelController." alt="" coords="15,413,170,440"/>
+</map>
