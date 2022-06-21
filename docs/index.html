@@ -191,8 +191,13 @@ How to retrieve a device for sending an event?</h1>
 <div class="line"> myDoorbell.sendDoorbellEvent();</div>
 </div><!-- fragment --><p><em>Example 2 (alternatively)</em> </p><div class="fragment"><div class="line">{C++}</div>
 <div class="line"> SinricPro[&quot;YOUR-DOORBELL-ID-HERE&quot;].as&lt;SinricProDoorbell&gt;().sendDoorbellEvent();</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md22"></a>
+How to send a push notification?</h1>
+<div class="fragment"><div class="line"> {C++}</div>
+<div class="line">SinricProSwitch&amp; mySwitch = SinricPro[SWITCH_ID];</div>
+<div class="line">mySwitch.sendPushNotification(&quot;Hello SinricPro!&quot;);</div>
 </div><!-- fragment --><hr  />
-<h1><a class="anchor" id="autotoc_md23"></a>
+<h1><a class="anchor" id="autotoc_md24"></a>
 Devices</h1>
 <ul>
 <li>Switch</li>
@@ -211,7 +216,7 @@ Devices</h1>
 <li>Interior Blinds</li>
 <li>Garage Door </li>
 </ul>
-<h2><a class="anchor" id="autotoc_md24"></a>
+<h2><a class="anchor" id="autotoc_md25"></a>
 * Custom devices</h2>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
