@@ -43,8 +43,9 @@ var NAVTREE =
       ] ],
       [ "How to add a device?", "index.html#autotoc_md19", null ],
       [ "How to retrieve a device for sending an event?", "index.html#autotoc_md21", null ],
-      [ "Devices", "index.html#autotoc_md23", [
-        [ "* Custom devices", "index.html#autotoc_md24", null ]
+      [ "How to send a push notification?", "index.html#autotoc_md22", null ],
+      [ "Devices", "index.html#autotoc_md24", [
+        [ "* Custom devices", "index.html#autotoc_md25", null ]
       ] ]
     ] ],
     [ "Modules", "modules.html", "modules" ],
