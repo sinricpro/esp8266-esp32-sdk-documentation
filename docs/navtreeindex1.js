@@ -1,15 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_volume_controller.html#aa2d3dbea5b07e4c5f39d3d20aa2167a4":[1,2,24,2],
-"classes.html":[3,1],
-"functions.html":[3,3,0],
-"functions_func.html":[3,3,1],
-"group___capabilities.html":[1,2],
-"group___devices.html":[1,1],
-"group___sinric_pro.html":[1,0],
-"hierarchy.html":[3,2],
-"index.html":[0],
-"index.html":[],
 "index.html#autotoc_md1":[0,0],
 "index.html#autotoc_md10":[0,4],
 "index.html#autotoc_md12":[0,5],
@@ -28,8 +18,8 @@ var NAVTREEINDEX1 =
 "index.html#autotoc_md4":[0,1,1],
 "index.html#autotoc_md6":[0,2],
 "index.html#autotoc_md8":[0,3],
-"modules.html":[1],
 "namespacemembers.html":[2,0],
 "namespacemembers_type.html":[2,1],
-"pages.html":[]
+"pages.html":[],
+"topics.html":[1]
 };

@@ -1,0 +1,11 @@
+<map id="ThermostatController&lt; T &gt;" name="ThermostatController&lt; T &gt;">
+<area shape="rect" id="Node000001" title="ThermostatController." alt="" coords="5,48,178,75"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_thermostat_controller.html" title=" " alt="" coords="372,5,535,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,49,371,32,371,37,193,54"/>
+<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_thermostat_controller.html" title=" " alt="" coords="372,72,535,115"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="194,74,202,75,372,87,372,93,201,80,193,79"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_thermostat.html" title="Device to control Thermostat." alt="" coords="584,13,724,40"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="550,24,584,24,584,29,550,29"/>
+<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_window_a_c.html" title="Device to control Window Air Conditioner." alt="" coords="585,80,723,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="550,91,584,91,584,96,550,96"/>
+</map>
