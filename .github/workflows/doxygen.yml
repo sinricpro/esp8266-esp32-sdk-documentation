@@ -49,4 +49,4 @@ jobs:
           title: 'Update Doxygen documentation'
           body: 'This PR updates the Doxygen documentation.'
           branch: update-doxygen-documentation
-          base: main
+          base: master
