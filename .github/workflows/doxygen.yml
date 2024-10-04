@@ -37,7 +37,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git add docs/*
+          git rm --cached esp8266-esp32-sdk
+          git add .
           git commit -m "Update Doxygen documentation" || echo "No changes to commit"
           git push -u origin update-doxygen-documentation      
 
