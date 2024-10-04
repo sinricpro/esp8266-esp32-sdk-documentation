@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['resetbandscallback_0',['ResetBandsCallback',['../namespace_s_i_n_r_i_c_p_r_o__3__0__0.html#aa8c78de42c40ee03966f3c96cdc05bab',1,'SINRICPRO_3_0_0']]]
+  ['powerstatecallback_426',['PowerStateCallback',['../namespace_s_i_n_r_i_c_p_r_o__3__2__1.html#aad370bc6b280bbdeac98181a31f22df4',1,'SINRICPRO_3_2_1']]]
 ];

@@ -1,6 +1,6 @@
 var modules =
 [
-    [ "SinricPro", "group___sinric_pro.html", null ],
-    [ "Devices", "group___devices.html", null ],
-    [ "Capabilities", "group___capabilities.html", null ]
+    [ "SinricPro", "group___sinric_pro.html", "group___sinric_pro" ],
+    [ "Devices", "group___devices.html", "group___devices" ],
+    [ "Capabilities", "group___capabilities.html", "group___capabilities" ]
 ];

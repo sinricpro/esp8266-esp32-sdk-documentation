@@ -1,163 +1,83 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_air_quality_sensor.html" title=" " alt="" coords="51,5,216,48"/>
-<area shape="rect" id="Node000001" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_air_quality_sensor.html" title="Device to report air quality events." alt="" coords="316,80,489,107"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="231,48,346,77,345,82,230,53"/>
-<area shape="rect" id="Node000034" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_brightness_controller.html" title=" " alt="" coords="64,205,203,248"/>
-<area shape="rect" id="Node000033" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_light.html" title="Device to control a light." alt="" coords="351,313,454,340"/>
-<area shape="poly" id="edge2_Node000034_Node000033" title=" " alt="" coords="218,243,263,258,325,284,377,311,375,315,323,289,261,262,217,248"/>
-<area shape="rect" id="Node000061" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_channel_controller.html" title=" " alt="" coords="68,723,199,765"/>
-<area shape="rect" id="Node000060" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_t_v.html" title="Device to control a TV." alt="" coords="357,697,448,724"/>
-<area shape="poly" id="edge3_Node000061_Node000060" title=" " alt="" coords="214,731,357,714,357,719,215,737"/>
-<area shape="rect" id="Node000035" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_color_controller.html" title=" " alt="" coords="48,272,219,315"/>
-<area shape="poly" id="edge4_Node000035_Node000033" title=" " alt="" coords="235,303,351,318,350,323,234,308"/>
-<area shape="rect" id="Node000036" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_color_temperature_controller.html" title=" " alt="" coords="44,339,223,381"/>
-<area shape="poly" id="edge5_Node000036_Node000033" title=" " alt="" coords="238,344,350,330,351,336,239,350"/>
-<area shape="rect" id="Node000012" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_contact_sensor.html" title=" " alt="" coords="47,891,220,933"/>
-<area shape="rect" id="Node000011" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_contactsensor.html" title="Device to report contact sensor events." alt="" coords="323,965,482,992"/>
-<area shape="poly" id="edge6_Node000012_Node000011" title=" " alt="" coords="235,934,346,962,345,967,234,940"/>
-<area shape="rect" id="Node000019" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_doorbell.html" title=" " alt="" coords="37,1024,230,1051"/>
-<area shape="rect" id="Node000018" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_doorbell.html" title="Device to report doorbell events." alt="" coords="342,1116,463,1143"/>
-<area shape="poly" id="edge7_Node000019_Node000018" title=" " alt="" coords="235,1052,263,1060,326,1086,378,1113,375,1118,324,1091,261,1065,234,1057"/>
-<area shape="rect" id="Node000031" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_door_controller.html" title=" " alt="" coords="49,1208,218,1251"/>
-<area shape="rect" id="Node000030" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_garage_door.html" title="Device to control a garage door." alt="" coords="331,1283,474,1309"/>
-<area shape="poly" id="edge8_Node000031_Node000030" title=" " alt="" coords="234,1251,346,1279,344,1285,232,1257"/>
-<area shape="rect" id="Node000049" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_equalizer_controller.html" title=" " alt="" coords="60,1475,207,1517"/>
-<area shape="rect" id="Node000048" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_speaker.html" title="Device to control a smart speaker." alt="" coords="341,1616,464,1643"/>
-<area shape="poly" id="edge9_Node000049_Node000048" title=" " alt="" coords="223,1512,263,1527,300,1547,335,1571,388,1614,384,1618,332,1575,297,1552,261,1532,221,1517"/>
-<area shape="rect" id="Node000050" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_input_controller.html" title=" " alt="" coords="49,1541,218,1584"/>
-<area shape="poly" id="edge10_Node000050_Node000048" title=" " alt="" coords="234,1585,346,1613,345,1618,233,1590"/>
-<area shape="rect" id="Node000062" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_input_controller.html" title=" " alt="" coords="35,789,232,816"/>
-<area shape="poly" id="edge11_Node000062_Node000060" title=" " alt="" coords="234,783,261,775,324,749,375,722,378,727,326,754,263,780,235,788"/>
-<area shape="rect" id="Node000040" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_lock_controller.html" title=" " alt="" coords="49,1875,218,1917"/>
-<area shape="rect" id="Node000039" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_lock.html" title="Device to control a smart lock." alt="" coords="351,1949,454,1976"/>
-<area shape="poly" id="edge12_Node000040_Node000039" title=" " alt="" coords="234,1918,352,1948,350,1953,233,1923"/>
-<area shape="rect" id="Node000051" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_media_controller.html" title=" " alt="" coords="45,1608,222,1651"/>
-<area shape="poly" id="edge13_Node000051_Node000048" title=" " alt="" coords="237,1627,341,1627,341,1632,237,1632"/>
-<area shape="rect" id="Node000063" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_media_controller.html" title=" " alt="" coords="31,840,236,867"/>
-<area shape="poly" id="edge14_Node000063_Node000060" title=" " alt="" coords="245,832,260,826,300,802,336,774,387,723,391,726,339,778,303,806,263,830,247,837"/>
-<area shape="rect" id="Node000052" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mode_controller.html" title=" " alt="" coords="47,1675,220,1717"/>
-<area shape="poly" id="edge15_Node000052_Node000048" title=" " alt="" coords="234,1668,345,1641,346,1646,236,1673"/>
-<area shape="rect" id="Node000043" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_motion_sensor.html" title=" " alt="" coords="5,2008,262,2035"/>
-<area shape="rect" id="Node000042" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_motionsensor.html" title="Device to report motion detection events." alt="" coords="326,2067,479,2093"/>
-<area shape="poly" id="edge16_Node000043_Node000042" title=" " alt="" coords="223,2036,262,2044,345,2063,344,2069,261,2049,222,2041"/>
-<area shape="rect" id="Node000053" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mute_controller.html" title=" " alt="" coords="48,1741,219,1784"/>
-<area shape="poly" id="edge17_Node000053_Node000048" title=" " alt="" coords="233,1738,261,1727,297,1707,332,1683,384,1641,388,1645,335,1688,300,1711,263,1732,235,1743"/>
-<area shape="rect" id="Node000064" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mute_controller.html" title=" " alt="" coords="34,472,233,499"/>
-<area shape="poly" id="edge18_Node000064_Node000060" title=" " alt="" coords="248,500,263,508,290,529,313,553,353,606,381,658,398,696,393,698,376,660,348,609,309,557,286,533,260,513,246,505"/>
-<area shape="rect" id="Node000015" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_level_controller.html" title=" " alt="" coords="53,2176,214,2219"/>
-<area shape="rect" id="Node000014" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_dim_switch.html" title="Device which supports on / off and dimming commands." alt="" coords="334,2217,471,2244"/>
-<area shape="poly" id="edge19_Node000015_Node000014" title=" " alt="" coords="230,2207,334,2220,333,2225,229,2212"/>
-<area shape="rect" id="Node000023" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_level_controller.html" title=" " alt="" coords="63,2376,204,2419"/>
-<area shape="rect" id="Node000022" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_fan.html" title="Device to turn on / off a fan and change it&#39;s speed by using powerlevel." alt="" coords="354,2417,451,2444"/>
-<area shape="poly" id="edge20_Node000023_Node000022" title=" " alt="" coords="220,2405,354,2422,353,2427,219,2411"/>
-<area shape="rect" id="Node000046" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_sensor.html" title=" " alt="" coords="34,2576,233,2619"/>
-<area shape="rect" id="Node000045" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_power_sensor.html" title="Device to report power usage." alt="" coords="327,2584,478,2611"/>
-<area shape="poly" id="edge21_Node000046_Node000045" title=" " alt="" coords="249,2595,326,2595,326,2600,249,2600"/>
-<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,2709,205,2752"/>
-<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_blinds.html" title="Device to control interior blinds." alt="" coords="347,2751,458,2777"/>
-<area shape="poly" id="edge22_Node000005_Node000004" title=" " alt="" coords="221,2739,347,2755,346,2760,220,2744"/>
-<area shape="rect" id="Node000009" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,2909,205,2952"/>
-<area shape="rect" id="Node000008" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_camera.html" title="Camera suporting basic on / off command." alt="" coords="343,2917,462,2944"/>
-<area shape="poly" id="edge23_Node000009_Node000008" title=" " alt="" coords="221,2928,342,2928,342,2933,221,2933"/>
-<area shape="rect" id="Node000016" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="53,2243,214,2285"/>
-<area shape="poly" id="edge24_Node000016_Node000014" title=" " alt="" coords="229,2250,333,2236,334,2242,230,2255"/>
-<area shape="rect" id="Node000020" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="61,1075,206,1117"/>
-<area shape="poly" id="edge25_Node000020_Node000018" title=" " alt="" coords="222,1104,342,1119,341,1125,221,1110"/>
-<area shape="rect" id="Node000024" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,2443,205,2485"/>
-<area shape="poly" id="edge26_Node000024_Node000022" title=" " alt="" coords="221,2451,353,2434,354,2439,221,2456"/>
-<area shape="rect" id="Node000027" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,3043,205,3085"/>
-<area shape="rect" id="Node000026" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_fan_u_s.html" title="Device to control a fan with on / off commands and its speed by a range value." alt="" coords="345,3084,460,3111"/>
-<area shape="poly" id="edge27_Node000027_Node000026" title=" " alt="" coords="221,3072,345,3088,344,3093,221,3077"/>
-<area shape="rect" id="Node000037" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,405,205,448"/>
-<area shape="poly" id="edge28_Node000037_Node000033" title=" " alt="" coords="219,404,261,391,323,364,375,338,377,343,325,369,263,396,221,409"/>
-<area shape="rect" id="Node000054" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="60,1808,207,1851"/>
-<area shape="poly" id="edge29_Node000054_Node000048" title=" " alt="" coords="221,1812,260,1794,305,1757,343,1715,372,1673,391,1642,396,1644,377,1676,347,1718,309,1761,263,1798,223,1817"/>
-<area shape="rect" id="Node000058" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,3243,205,3285"/>
-<area shape="rect" id="Node000057" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_switch.html" title="Device suporting basic on / off command." alt="" coords="346,3251,459,3277"/>
-<area shape="poly" id="edge30_Node000058_Node000057" title=" " alt="" coords="221,3261,345,3261,345,3267,221,3267"/>
-<area shape="rect" id="Node000072" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="52,3509,215,3552"/>
-<area shape="rect" id="Node000071" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_thermostat.html" title="Device to control Thermostat." alt="" coords="333,3451,472,3477"/>
-<area shape="poly" id="edge31_Node000072_Node000071" title=" " alt="" coords="230,3504,345,3475,346,3481,231,3509"/>
-<area shape="rect" id="Node000065" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="62,523,205,565"/>
-<area shape="poly" id="edge32_Node000065_Node000060" title=" " alt="" coords="221,558,263,575,305,604,342,637,393,695,389,699,338,641,301,608,260,580,219,562"/>
-<area shape="rect" id="Node000077" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="52,3776,215,3819"/>
-<area shape="rect" id="Node000076" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_window_a_c.html" title="Device to control Window Air Conditioner." alt="" coords="333,3717,472,3744"/>
-<area shape="poly" id="edge33_Node000077_Node000076" title=" " alt="" coords="229,3771,345,3742,346,3747,230,3776"/>
-<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,72,214,115"/>
-<area shape="poly" id="edge34_Node000002_Node000001" title=" " alt="" coords="230,91,316,91,316,96,230,96"/>
-<area shape="rect" id="Node000006" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,2776,214,2819"/>
-<area shape="poly" id="edge35_Node000006_Node000004" title=" " alt="" coords="229,2783,346,2768,347,2773,229,2788"/>
-<area shape="rect" id="Node000010" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,2976,214,3019"/>
-<area shape="poly" id="edge36_Node000010_Node000008" title=" " alt="" coords="228,2971,344,2942,346,2947,230,2976"/>
-<area shape="rect" id="Node000013" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,957,214,1000"/>
-<area shape="poly" id="edge37_Node000013_Node000011" title=" " alt="" coords="230,976,323,976,323,981,230,981"/>
-<area shape="rect" id="Node000017" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,2309,214,2352"/>
-<area shape="poly" id="edge38_Node000017_Node000014" title=" " alt="" coords="228,2306,261,2295,323,2268,375,2242,377,2247,325,2273,263,2300,230,2311"/>
-<area shape="rect" id="Node000021" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,1141,214,1184"/>
-<area shape="poly" id="edge39_Node000021_Node000018" title=" " alt="" coords="229,1148,341,1134,342,1139,230,1153"/>
-<area shape="rect" id="Node000025" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,2509,214,2552"/>
-<area shape="poly" id="edge40_Node000025_Node000022" title=" " alt="" coords="228,2506,261,2495,323,2468,375,2442,377,2447,325,2473,263,2500,230,2511"/>
-<area shape="rect" id="Node000028" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,3109,214,3152"/>
-<area shape="poly" id="edge41_Node000028_Node000026" title=" " alt="" coords="229,3116,344,3102,345,3107,230,3121"/>
-<area shape="rect" id="Node000032" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,1275,214,1317"/>
-<area shape="poly" id="edge42_Node000032_Node000030" title=" " alt="" coords="229,1293,330,1293,330,1299,229,1299"/>
-<area shape="rect" id="Node000038" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,139,214,181"/>
-<area shape="poly" id="edge43_Node000038_Node000033" title=" " alt="" coords="230,176,263,191,305,220,342,253,393,311,389,315,338,257,301,224,260,196,228,181"/>
-<area shape="rect" id="Node000041" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,1941,214,1984"/>
-<area shape="poly" id="edge44_Node000041_Node000039" title=" " alt="" coords="229,1960,351,1960,351,1965,229,1965"/>
-<area shape="rect" id="Node000044" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,2059,214,2101"/>
-<area shape="poly" id="edge45_Node000044_Node000042" title=" " alt="" coords="230,2077,326,2077,326,2083,230,2083"/>
-<area shape="rect" id="Node000047" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,2643,214,2685"/>
-<area shape="poly" id="edge46_Node000047_Node000045" title=" " alt="" coords="228,2638,344,2609,346,2614,230,2643"/>
-<area shape="rect" id="Node000055" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,1341,214,1384"/>
-<area shape="poly" id="edge47_Node000055_Node000048" title=" " alt="" coords="230,1376,263,1394,292,1419,317,1448,357,1512,384,1572,399,1615,394,1617,379,1574,352,1515,312,1452,288,1423,260,1398,227,1381"/>
-<area shape="rect" id="Node000059" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,3309,214,3352"/>
-<area shape="poly" id="edge48_Node000059_Node000057" title=" " alt="" coords="228,3305,344,3275,346,3281,230,3310"/>
-<area shape="rect" id="Node000069" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="51,3909,216,3952"/>
-<area shape="rect" id="Node000068" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_temperaturesensor.html" title="Device to report actual temperature and humidity." alt="" coords="310,3917,495,3944"/>
-<area shape="poly" id="edge49_Node000069_Node000068" title=" " alt="" coords="231,3928,309,3928,309,3933,231,3933"/>
-<area shape="rect" id="Node000073" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,3576,214,3619"/>
-<area shape="poly" id="edge50_Node000073_Node000071" title=" " alt="" coords="228,3574,261,3562,297,3541,332,3518,384,3476,388,3480,335,3522,300,3546,263,3566,230,3579"/>
-<area shape="rect" id="Node000066" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,589,214,632"/>
-<area shape="poly" id="edge51_Node000066_Node000060" title=" " alt="" coords="230,631,263,642,325,668,377,695,375,699,323,673,261,646,228,636"/>
-<area shape="rect" id="Node000078" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="53,3843,214,3885"/>
-<area shape="poly" id="edge52_Node000078_Node000076" title=" " alt="" coords="228,3841,261,3828,297,3808,332,3785,384,3742,388,3746,335,3789,300,3813,263,3833,230,3846"/>
-<area shape="rect" id="Node000007" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_range_controller.html" title=" " alt="" coords="44,2843,223,2885"/>
-<area shape="poly" id="edge53_Node000007_Node000004" title=" " alt="" coords="237,2836,261,2828,323,2802,375,2775,377,2780,325,2806,263,2833,239,2841"/>
-<area shape="rect" id="Node000029" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_range_controller.html" title=" " alt="" coords="44,3176,223,3219"/>
-<area shape="poly" id="edge54_Node000029_Node000026" title=" " alt="" coords="237,3170,261,3162,323,3135,375,3109,377,3113,325,3140,263,3166,239,3175"/>
-<area shape="rect" id="Node000079" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_range_controller.html" title=" " alt="" coords="44,3643,223,3685"/>
-<area shape="poly" id="edge55_Node000079_Node000076" title=" " alt="" coords="237,3687,346,3714,345,3719,236,3692"/>
-<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="77,2125,190,2152"/>
-<area shape="poly" id="edge56_Node000003_Node000001" title=" " alt="" coords="204,2138,235,2130,260,2112,270,2081,279,2017,291,1811,297,1532,299,1215,299,615,301,404,307,301,325,242,348,186,390,106,395,109,353,189,330,244,312,302,307,404,305,615,304,1215,302,1532,296,1812,284,2018,275,2082,264,2115,237,2134,206,2143"/>
-<area shape="poly" id="edge65_Node000003_Node000033" title=" " alt="" coords="204,2138,235,2130,260,2112,268,2088,275,2038,287,1876,294,1656,298,1406,302,933,307,685,327,580,352,479,394,340,399,341,357,480,332,581,312,686,307,933,303,1406,299,1656,292,1876,281,2038,273,2089,264,2115,237,2134,205,2143"/>
-<area shape="poly" id="edge71_Node000003_Node000060" title=" " alt="" coords="204,2138,235,2130,260,2112,273,2085,284,2040,298,1908,304,1736,305,1544,300,1174,301,1035,307,953,326,884,350,817,392,723,396,726,354,819,331,885,312,954,306,1036,306,1174,310,1544,310,1737,304,1909,289,2041,278,2086,264,2115,237,2134,205,2143"/>
-<area shape="poly" id="edge59_Node000003_Node000011" title=" " alt="" coords="204,2138,235,2129,260,2112,271,2088,281,2049,292,1934,297,1784,296,1616,294,1294,297,1174,301,1131,307,1103,323,1069,344,1037,385,991,389,994,348,1041,328,1071,312,1105,306,1132,303,1174,299,1294,302,1616,302,1785,297,1935,286,2050,276,2090,264,2115,237,2134,206,2143"/>
-<area shape="poly" id="edge61_Node000003_Node000018" title=" " alt="" coords="204,2138,235,2129,260,2112,270,2092,278,2060,288,1964,294,1839,295,1699,296,1430,299,1329,307,1270,324,1231,345,1195,386,1142,390,1145,350,1198,329,1233,312,1271,304,1330,301,1430,300,1699,299,1839,294,1965,283,2061,275,2094,264,2115,237,2134,206,2143"/>
-<area shape="poly" id="edge64_Node000003_Node000030" title=" " alt="" coords="205,2137,235,2129,260,2111,272,2094,282,2071,296,2013,302,1944,303,1869,301,1719,302,1654,307,1604,328,1514,353,1429,393,1309,398,1311,358,1430,333,1516,312,1604,307,1655,306,1719,309,1869,307,1945,301,2014,287,2073,277,2096,264,2115,237,2134,206,2143"/>
-<area shape="poly" id="edge69_Node000003_Node000048" title=" " alt="" coords="204,2136,234,2127,260,2111,278,2092,289,2072,294,2053,297,2034,298,1990,307,1937,394,1642,399,1644,312,1938,304,1990,302,2034,300,2054,294,2075,282,2095,263,2115,236,2132,206,2141"/>
-<area shape="poly" id="edge66_Node000003_Node000039" title=" " alt="" coords="204,2131,233,2123,260,2111,276,2099,286,2085,308,2053,384,1975,388,1978,312,2056,290,2088,280,2102,263,2116,235,2128,205,2136"/>
-<area shape="poly" id="edge67_Node000003_Node000042" title=" " alt="" coords="204,2123,261,2111,344,2091,345,2097,262,2116,205,2128"/>
-<area shape="poly" id="edge60_Node000003_Node000014" title=" " alt="" coords="205,2147,263,2161,326,2188,378,2214,375,2219,324,2192,261,2167,204,2152"/>
-<area shape="poly" id="edge62_Node000003_Node000022" title=" " alt="" coords="205,2139,236,2147,263,2162,284,2183,294,2204,301,2227,312,2255,396,2416,392,2418,307,2257,296,2229,289,2206,280,2186,260,2166,234,2152,204,2144"/>
-<area shape="poly" id="edge68_Node000003_Node000045" title=" " alt="" coords="206,2135,237,2144,263,2162,290,2197,304,2232,307,2266,305,2300,298,2372,300,2412,312,2455,330,2493,352,2528,391,2582,387,2585,347,2531,325,2495,307,2457,295,2413,292,2372,300,2299,302,2266,298,2233,286,2200,260,2166,235,2149,204,2141"/>
-<area shape="poly" id="edge57_Node000003_Node000004" title=" " alt="" coords="206,2135,237,2144,264,2162,276,2179,285,2201,296,2254,301,2317,301,2385,300,2521,303,2578,312,2622,329,2660,351,2695,391,2749,387,2752,346,2698,325,2662,307,2623,298,2579,295,2521,296,2385,296,2317,291,2254,280,2202,271,2182,260,2166,235,2148,204,2140"/>
-<area shape="poly" id="edge58_Node000003_Node000008" title=" " alt="" coords="206,2135,237,2143,264,2162,279,2186,291,2215,305,2287,308,2373,306,2466,299,2651,301,2729,312,2789,329,2826,350,2862,391,2915,386,2918,346,2865,324,2829,307,2790,296,2729,294,2651,301,2466,303,2373,299,2287,286,2216,275,2188,260,2166,235,2148,204,2140"/>
-<area shape="poly" id="edge63_Node000003_Node000026" title=" " alt="" coords="206,2134,237,2143,264,2162,274,2182,282,2213,292,2304,298,2422,300,2553,301,2806,305,2900,312,2955,329,2993,350,3029,391,3082,386,3085,345,3032,324,2996,307,2957,299,2901,296,2806,294,2554,292,2422,287,2304,277,2214,269,2184,260,2166,235,2148,204,2140"/>
-<area shape="poly" id="edge70_Node000003_Node000057" title=" " alt="" coords="206,2134,237,2143,264,2162,276,2186,285,2224,297,2333,302,2476,302,2636,301,2941,304,3055,312,3122,328,3160,350,3195,390,3248,386,3252,345,3198,324,3162,307,3123,298,3056,295,2941,297,2636,296,2476,291,2334,280,2225,271,2188,260,2166,235,2148,204,2139"/>
-<area shape="poly" id="edge73_Node000003_Node000071" title=" " alt="" coords="205,2134,237,2143,264,2162,278,2190,288,2234,302,2363,307,2530,307,2717,303,3076,304,3210,312,3289,329,3337,352,3382,393,3449,389,3452,347,3385,324,3339,307,3290,299,3210,297,3076,301,2717,301,2530,296,2363,283,2235,273,2192,260,2166,235,2148,204,2139"/>
-<area shape="poly" id="edge74_Node000003_Node000076" title=" " alt="" coords="205,2134,237,2143,264,2162,273,2187,279,2234,290,2384,301,2821,305,3260,308,3414,312,3489,331,3557,354,3623,396,3716,392,3718,349,3625,325,3559,307,3490,303,3414,300,3260,295,2821,285,2385,274,2234,267,2188,260,2166,235,2148,204,2139"/>
-<area shape="poly" id="edge72_Node000003_Node000068" title=" " alt="" coords="205,2134,237,2143,264,2162,274,2191,282,2248,293,2429,299,2675,301,2953,303,3481,306,3666,312,3755,329,3804,352,3849,393,3916,389,3918,347,3852,324,3806,307,3757,301,3666,298,3481,296,2953,293,2675,287,2429,277,2249,269,2193,260,2166,235,2148,204,2139"/>
-<area shape="rect" id="Node000070" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_temperature_sensor.html" title=" " alt="" coords="33,3976,234,4019"/>
-<area shape="poly" id="edge75_Node000070_Node000068" title=" " alt="" coords="236,3969,345,3942,346,3947,237,3974"/>
-<area shape="rect" id="Node000074" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_temperature_sensor.html" title=" " alt="" coords="56,3376,211,3419"/>
-<area shape="poly" id="edge76_Node000074_Node000071" title=" " alt="" coords="227,3418,346,3447,345,3453,226,3423"/>
-<area shape="rect" id="Node000075" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_thermostat_controller.html" title=" " alt="" coords="52,3443,215,3485"/>
-<area shape="poly" id="edge77_Node000075_Node000071" title=" " alt="" coords="231,3461,332,3461,332,3467,231,3467"/>
-<area shape="rect" id="Node000080" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_thermostat_controller.html" title=" " alt="" coords="52,3709,215,3752"/>
-<area shape="poly" id="edge78_Node000080_Node000076" title=" " alt="" coords="230,3728,333,3728,333,3733,230,3733"/>
-<area shape="rect" id="Node000056" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_volume_controller.html" title=" " alt="" coords="51,1408,216,1451"/>
-<area shape="poly" id="edge79_Node000056_Node000048" title=" " alt="" coords="232,1445,263,1460,309,1497,347,1541,377,1583,396,1614,391,1617,372,1585,343,1544,305,1501,260,1465,230,1450"/>
-<area shape="rect" id="Node000067" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_volume_controller.html" title=" " alt="" coords="51,656,216,699"/>
-<area shape="poly" id="edge80_Node000067_Node000060" title=" " alt="" coords="232,687,357,702,356,708,231,692"/>
+<area shape="rect" id="node1" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_air_quality_sensor.html" title=" " alt="" coords="57,5,240,47"/>
+<area shape="rect" id="node2" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_air_quality_sensor.html" title="Device to report air quality events." alt="" coords="348,78,536,105"/>
+<area shape="rect" id="node3" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_brightness_controller.html" title=" " alt="" coords="71,201,226,243"/>
+<area shape="rect" id="node4" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_light.html" title="Device to control a light." alt="" coords="387,307,497,334"/>
+<area shape="rect" id="node5" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_channel_controller.html" title=" " alt="" coords="73,711,224,752"/>
+<area shape="rect" id="node6" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_t_v.html" title="Device to control a TV." alt="" coords="394,686,490,713"/>
+<area shape="rect" id="node7" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_color_controller.html" title=" " alt="" coords="53,267,245,308"/>
+<area shape="rect" id="node8" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_color_temperature_controller.html" title=" " alt="" coords="47,332,250,373"/>
+<area shape="rect" id="node9" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_contact_sensor.html" title=" " alt="" coords="55,879,243,920"/>
+<area shape="rect" id="node10" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_contactsensor.html" title="Device to report contact sensor events." alt="" coords="356,951,528,978"/>
+<area shape="rect" id="node11" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_doorbell.html" title=" " alt="" coords="39,1010,258,1037"/>
+<area shape="rect" id="node12" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_doorbell.html" title="Device to report doorbell events." alt="" coords="375,1102,509,1129"/>
+<area shape="rect" id="node13" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_door_controller.html" title=" " alt="" coords="54,1192,243,1233"/>
+<area shape="rect" id="node14" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_garage_door.html" title="Device to control a garage door." alt="" coords="363,1265,521,1291"/>
+<area shape="rect" id="node15" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_equalizer_controller.html" title=" " alt="" coords="68,1453,229,1495"/>
+<area shape="rect" id="node16" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_speaker.html" title="Device to control a smart speaker." alt="" coords="377,1591,507,1618"/>
+<area shape="rect" id="node17" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_input_controller.html" title=" " alt="" coords="53,1519,244,1560"/>
+<area shape="rect" id="node18" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_input_controller.html" title=" " alt="" coords="37,777,260,803"/>
+<area shape="rect" id="node19" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_lock_controller.html" title=" " alt="" coords="55,1845,243,1887"/>
+<area shape="rect" id="node20" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_lock.html" title="Device to control a smart lock." alt="" coords="387,1918,497,1945"/>
+<area shape="rect" id="node21" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_media_controller.html" title=" " alt="" coords="49,1584,248,1625"/>
+<area shape="rect" id="node22" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_media_controller.html" title=" " alt="" coords="33,827,264,854"/>
+<area shape="rect" id="node23" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_mode_controller.html" title=" " alt="" coords="51,1649,246,1691"/>
+<area shape="rect" id="node24" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_motion_sensor.html" title=" " alt="" coords="5,1977,292,2003"/>
+<area shape="rect" id="node25" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_motionsensor.html" title="Device to report motion detection events." alt="" coords="359,2035,525,2062"/>
+<area shape="rect" id="node26" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_mute_controller.html" title=" " alt="" coords="53,1715,244,1756"/>
+<area shape="rect" id="node27" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_mute_controller.html" title=" " alt="" coords="37,463,260,490"/>
+<area shape="rect" id="node28" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_level_controller.html" title=" " alt="" coords="59,2145,238,2187"/>
+<area shape="rect" id="node29" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_dim_switch.html" title="Device which supports on / off and dimming commands." alt="" coords="367,2186,517,2213"/>
+<area shape="rect" id="node30" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_level_controller.html" title=" " alt="" coords="68,2341,229,2383"/>
+<area shape="rect" id="node31" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_fan.html" title="Device to turn on / off a fan and change it&#39;s speed by using powerlevel." alt="" coords="391,2382,493,2409"/>
+<area shape="rect" id="node32" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_sensor.html" title=" " alt="" coords="39,2537,258,2579"/>
+<area shape="rect" id="node33" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_power_sensor.html" title="Device to report power usage." alt="" coords="361,2545,523,2571"/>
+<area shape="rect" id="node34" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,2668,229,2709"/>
+<area shape="rect" id="node35" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_blinds.html" title="Device to control interior blinds." alt="" coords="383,2709,501,2735"/>
+<area shape="rect" id="node36" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,2864,229,2905"/>
+<area shape="rect" id="node37" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_camera.html" title="Camera suporting basic on / off command." alt="" coords="377,2871,507,2898"/>
+<area shape="rect" id="node38" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="59,2211,238,2252"/>
+<area shape="rect" id="node39" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="67,1061,231,1103"/>
+<area shape="rect" id="node40" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,2407,229,2448"/>
+<area shape="rect" id="node41" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,2995,229,3036"/>
+<area shape="rect" id="node42" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_fan_u_s.html" title="Device to control a fan with on / off commands and its speed by a range value." alt="" coords="383,3035,501,3062"/>
+<area shape="rect" id="node43" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,397,229,439"/>
+<area shape="rect" id="node44" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="68,1780,229,1821"/>
+<area shape="rect" id="node45" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,3191,229,3232"/>
+<area shape="rect" id="node46" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_switch.html" title="Device suporting basic on / off command." alt="" coords="381,3198,503,3225"/>
+<area shape="rect" id="node47" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="57,3452,241,3493"/>
+<area shape="rect" id="node48" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_thermostat.html" title="Device to control Thermostat." alt="" coords="365,3394,519,3421"/>
+<area shape="rect" id="node49" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="69,515,229,556"/>
+<area shape="rect" id="node50" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_power_state_controller.html" title=" " alt="" coords="59,3713,238,3755"/>
+<area shape="rect" id="node51" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_window_a_c.html" title="Device to control Window Air Conditioner." alt="" coords="367,3655,517,3682"/>
+<area shape="rect" id="node52" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,71,238,112"/>
+<area shape="rect" id="node53" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,2733,238,2775"/>
+<area shape="rect" id="node54" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,2929,238,2971"/>
+<area shape="rect" id="node55" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,944,238,985"/>
+<area shape="rect" id="node56" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,2276,238,2317"/>
+<area shape="rect" id="node57" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,1127,238,1168"/>
+<area shape="rect" id="node58" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,2472,238,2513"/>
+<area shape="rect" id="node59" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,3060,238,3101"/>
+<area shape="rect" id="node60" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,1257,238,1299"/>
+<area shape="rect" id="node61" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,136,238,177"/>
+<area shape="rect" id="node62" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,1911,238,1952"/>
+<area shape="rect" id="node63" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,2028,238,2069"/>
+<area shape="rect" id="node64" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,2603,238,2644"/>
+<area shape="rect" id="node65" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,1323,238,1364"/>
+<area shape="rect" id="node66" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,3256,238,3297"/>
+<area shape="rect" id="node67" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="57,3844,240,3885"/>
+<area shape="rect" id="node68" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_temperaturesensor.html" title="Device to report actual temperature and humidity." alt="" coords="340,3851,544,3878"/>
+<area shape="rect" id="node69" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,3517,238,3559"/>
+<area shape="rect" id="node70" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,580,238,621"/>
+<area shape="rect" id="node71" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_push_notification.html" title=" " alt="" coords="59,3779,238,3820"/>
+<area shape="rect" id="node72" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_range_controller.html" title=" " alt="" coords="49,2799,248,2840"/>
+<area shape="rect" id="node73" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_range_controller.html" title=" " alt="" coords="49,3125,248,3167"/>
+<area shape="rect" id="node74" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_range_controller.html" title=" " alt="" coords="49,3583,248,3624"/>
+<area shape="rect" id="node75" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="87,2094,211,2121"/>
+<area shape="rect" id="node76" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_temperature_sensor.html" title=" " alt="" coords="37,3909,260,3951"/>
+<area shape="rect" id="node77" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_temperature_sensor.html" title=" " alt="" coords="62,3321,235,3363"/>
+<area shape="rect" id="node78" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_thermostat_controller.html" title=" " alt="" coords="57,3387,241,3428"/>
+<area shape="rect" id="node79" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_thermostat_controller.html" title=" " alt="" coords="59,3648,238,3689"/>
+<area shape="rect" id="node80" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_volume_controller.html" title=" " alt="" coords="55,1388,242,1429"/>
+<area shape="rect" id="node81" href="$class_s_i_n_r_i_c_p_r_o__3__2__1_1_1_volume_controller.html" title=" " alt="" coords="55,645,242,687"/>
 </map>
