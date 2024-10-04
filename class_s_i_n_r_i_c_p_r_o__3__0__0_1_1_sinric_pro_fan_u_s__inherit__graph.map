@@ -1,0 +1,17 @@
+<map id="SinricProFanUS" name="SinricProFanUS">
+<area shape="rect" id="Node000001" title="Device to control a fan with on / off commands and its speed by a range value." alt="" coords="576,105,691,132"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="382,5,494,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="510,34,528,42,579,72,618,103,615,107,576,77,526,46,508,39"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="358,56,518,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="533,95,577,104,575,109,532,100"/>
+<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title="PushNotification." alt="" coords="19,64,166,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="181,75,357,75,357,80,181,80"/>
+<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="366,123,510,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="525,130,576,123,576,129,525,135"/>
+<area shape="rect" id="Node000006" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title="PowerStateController." alt="" coords="5,131,180,157"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="195,141,366,141,366,147,195,147"/>
+<area shape="rect" id="Node000007" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_range_controller.html" title=" " alt="" coords="349,189,527,232"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="513,181,526,175,608,130,611,135,528,180,515,185"/>
+<area shape="rect" id="Node000008" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_range_controller.html" title="RangeControllerFloatInt." alt="" coords="20,197,165,224"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="180,208,348,208,348,213,180,213"/>
+</map>

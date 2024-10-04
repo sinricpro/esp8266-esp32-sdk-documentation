@@ -1,0 +1,37 @@
+<map id="SinricProSpeaker" name="SinricProSpeaker">
+<area shape="rect" id="Node000001" title="Device to control a smart speaker." alt="" coords="582,264,705,291"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="389,5,501,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="517,31,535,42,560,68,581,97,613,160,632,220,642,263,637,264,627,221,608,162,576,100,556,71,531,46,514,35"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="365,56,525,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="530,105,535,109,572,147,603,190,639,262,634,265,598,193,568,150,531,113,527,109"/>
+<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title="PushNotification." alt="" coords="19,64,166,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="181,75,364,75,364,80,181,80"/>
+<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title=" " alt="" coords="372,123,518,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="527,171,534,175,591,220,632,262,628,265,588,224,532,180,524,175"/>
+<area shape="rect" id="Node000006" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_power_state_controller.html" title="PowerStateController." alt="" coords="5,131,180,157"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="195,141,371,141,371,147,195,147"/>
+<area shape="rect" id="Node000007" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mute_controller.html" title=" " alt="" coords="360,189,530,232"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="526,235,602,261,600,266,524,240"/>
+<area shape="rect" id="Node000008" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mute_controller.html" title="MuteController." alt="" coords="24,197,161,224"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="176,208,360,208,360,213,176,213"/>
+<area shape="rect" id="Node000009" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_volume_controller.html" title=" " alt="" coords="362,256,528,299"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="543,275,582,275,582,280,543,280"/>
+<area shape="rect" id="Node000010" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_volume_controller.html" title="VolumeController." alt="" coords="17,264,168,291"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="183,275,362,275,362,280,183,280"/>
+<area shape="rect" id="Node000011" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_media_controller.html" title=" " alt="" coords="357,323,533,365"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="524,315,600,289,602,294,526,320"/>
+<area shape="rect" id="Node000012" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_media_controller.html" title="MediaController." alt="" coords="21,331,164,357"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="179,341,357,341,357,347,179,347"/>
+<area shape="rect" id="Node000013" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_input_controller.html" title=" " alt="" coords="360,389,530,432"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="524,380,532,375,588,331,628,289,632,293,591,335,534,380,527,384"/>
+<area shape="rect" id="Node000014" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_input_controller.html" title="InputController." alt="" coords="25,397,160,424"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="176,408,360,408,360,413,176,413"/>
+<area shape="rect" id="Node000015" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_equalizer_controller.html" title=" " alt="" coords="372,456,518,499"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="527,445,531,442,568,404,598,362,634,290,639,292,603,364,572,408,535,446,530,450"/>
+<area shape="rect" id="Node000016" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_equalizer_controller.html" title="EqualizerController." alt="" coords="12,464,173,491"/>
+<area shape="poly" id="edge15_Node000015_Node000016" title=" " alt="" coords="189,475,371,475,371,480,189,480"/>
+<area shape="rect" id="Node000017" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mode_controller.html" title=" " alt="" coords="358,523,532,565"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="528,511,531,509,555,483,575,454,606,391,626,332,637,290,642,292,632,334,611,393,580,456,559,486,535,513,532,515"/>
+<area shape="rect" id="Node000018" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_mode_controller.html" title="ModeController." alt="" coords="23,531,162,557"/>
+<area shape="poly" id="edge17_Node000017_Node000018" title=" " alt="" coords="178,541,358,541,358,547,178,547"/>
+</map>

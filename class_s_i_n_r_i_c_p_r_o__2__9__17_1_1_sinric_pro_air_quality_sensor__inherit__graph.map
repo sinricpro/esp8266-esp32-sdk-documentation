@@ -1,0 +1,10 @@
+<map id="SinricProAirQualitySensor" name="SinricProAirQualitySensor">
+<area shape="rect" id="node1" title="Device to report air quality events." alt="" coords="655,89,828,116"/>
+<area shape="rect" id="node2" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="450,5,563,32"/>
+<area shape="rect" id="node3" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title=" " alt="" coords="426,57,587,98"/>
+<area shape="rect" id="node4" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_push_notification.html" title="PushNotification." alt="" coords="19,64,166,91"/>
+<area shape="rect" id="node5" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title=" " alt="" coords="408,122,605,163"/>
+<area shape="rect" id="node6" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_power_state_controller.html" title="PowerStateController." alt="" coords="5,129,180,156"/>
+<area shape="rect" id="node7" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_air_quality_sensor.html" title=" " alt="" coords="424,187,589,229"/>
+<area shape="rect" id="node8" href="$class_s_i_n_r_i_c_p_r_o__2__9__17_1_1_air_quality_sensor.html" title="AirQuality." alt="" coords="17,195,168,221"/>
+</map>

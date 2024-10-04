@@ -1,0 +1,13 @@
+<map id="SinricProTemperaturesensor" name="SinricProTemperaturesensor">
+<area shape="rect" id="Node000001" title="Device to report actual temperature and humidity." alt="" coords="661,64,847,91"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="455,5,568,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="583,33,696,61,695,66,582,38"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title=" " alt="" coords="429,56,594,99"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="609,75,661,75,661,80,609,80"/>
+<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_push_notification.html" title="PushNotification." alt="" coords="15,64,161,91"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="177,75,429,75,429,80,177,80"/>
+<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_temperature_sensor.html" title=" " alt="" coords="411,123,612,165"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="605,116,702,89,703,94,606,121"/>
+<area shape="rect" id="Node000006" href="$class_s_i_n_r_i_c_p_r_o__3__0__0_1_1_temperature_sensor.html" title="TemperatureSensor." alt="" coords="5,131,171,157"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="186,141,410,141,410,147,186,147"/>
+</map>
