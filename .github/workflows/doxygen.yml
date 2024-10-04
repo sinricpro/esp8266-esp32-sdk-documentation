@@ -37,6 +37,7 @@ jobs:
 
       - name: Commit changes
         run: |
+          rm -rf ./esp8266-esp32-sdk
           ls -lR
           git add docs/*
           git commit -m "Update Doxygen documentation" || echo "No changes to commit"
