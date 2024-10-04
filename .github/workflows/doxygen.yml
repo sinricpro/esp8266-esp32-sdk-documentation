@@ -19,6 +19,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "doxygen-bot"
           git checkout -b update-doxygen-documentation
+          git pull
 
       - name: Clone external repository
         run: |
@@ -36,7 +37,6 @@ jobs:
         run: |
           git add .
           git commit -m "Update Doxygen documentation" || echo "No changes to commit"
-          git pull --rebase origin master
       
       - name: Push changes
         uses: ad-m/github-push-action@master
