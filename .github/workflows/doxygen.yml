@@ -3,52 +3,36 @@ name: Generate Doxygen Documentation
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - main  # Ausführung bei Pushes auf den 'main' Branch
+  workflow_dispatch:  # Manuelles Auslösen der Action
 
 jobs:
   generate-docs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Check-out current repository
       - name: Checkout current repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Create new branch
-        run: |
-          git config --global push.autoSetupRemote true
-          git config --local user.email "action@github.com"
-          git config --local user.name "doxygen-bot"
-          git checkout -b update-doxygen-documentation          
-
+      # Step 2: Clone SinricPro repository
       - name: Clone external repository
         run: |
           git clone https://github.com/sinricpro/esp8266-esp32-sdk
 
+      # Step 3: Install Doxygen
       - name: Install Doxygen
         run: |
           sudo apt-get install -y doxygen graphviz
 
+      # Step 4: Generate Documentation
       - name: Generate Documentation
         run: |
           doxygen Doxyfile
 
-      - name: Commit changes
-        run: |
-          ls -l
-          git add .
-          git status
-          git commit -m "Update Doxygen documentation" || echo "No changes to commit"
-          git push -u origin update-doxygen-documentation      
-
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: Update Doxygen documentation
-          title: 'Update Doxygen documentation'
-          body: 'This PR updates the Doxygen documentation.'
-          branch: update-doxygen-documentation
-          base: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs  # Pfad zur generierten Dokumentation
