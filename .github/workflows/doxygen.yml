@@ -11,28 +11,44 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check-out current repository
       - name: Checkout current repository
         uses: actions/checkout@v4
 
-      # Step 2: Clone SinricPro repository
+      - name: Create new branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "doxygen-bot"
+          git checkout -b update-doxygen-documentation
+
       - name: Clone external repository
         run: |
           git clone https://github.com/sinricpro/esp8266-esp32-sdk
 
-      # Step 3: Install Doxygen
       - name: Install Doxygen
         run: |
           sudo apt-get install -y doxygen graphviz
 
-      # Step 4: Generate Documentation
       - name: Generate Documentation
         run: |
           doxygen Doxyfile
 
-      # Step 5: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Commit changes
+        run: |
+          git add .
+          git commit -m "Update Doxygen documentation" || echo "No changes to commit"
+        
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          branch: update-doxygen-documentation
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update Doxygen documentation
+          title: 'Update Doxygen documentation'
+          body: 'This PR updates the Doxygen documentation.'
+          branch: update-doxygen-documentation
+          base: main
