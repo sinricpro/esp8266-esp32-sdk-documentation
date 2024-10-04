@@ -3,8 +3,8 @@ name: Generate Doxygen Documentation
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
+      - main  # Ausführung bei Pushes auf den 'main' Branch
+  workflow_dispatch:  # Manuelles Auslösen der Action
 
 jobs:
   generate-docs:
@@ -35,4 +35,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
+          publish_dir: ./docs  # Pfad zur generierten Dokumentation
