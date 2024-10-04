@@ -38,7 +38,7 @@ jobs:
         run: |
           git add docs/*
           git commit -m "Update Doxygen documentation" || echo "No changes to commit"
-          git pull
+          git branch --set-upstream-to=origin/update-doxygen-documentation
       
       - name: Push changes
         uses: ad-m/github-push-action@master
