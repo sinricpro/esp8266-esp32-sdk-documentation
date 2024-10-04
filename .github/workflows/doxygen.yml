@@ -41,7 +41,6 @@ jobs:
           ls -lR
           git add docs/*
           git commit -m "Update Doxygen documentation" || echo "No changes to commit"
-          git rm --cached esp8266-esp32-sdk
           git push -u origin update-doxygen-documentation      
 
       - name: Create Pull Request
