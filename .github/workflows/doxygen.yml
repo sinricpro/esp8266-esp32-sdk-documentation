@@ -1,0 +1,38 @@
+name: Generate Doxygen Documentation
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check-out current repository
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+
+      # Step 2: Clone SinricPro repository
+      - name: Clone external repository
+        run: |
+          git clone https://github.com/sinricpro/esp8266-esp32-sdk
+
+      # Step 3: Install Doxygen
+      - name: Install Doxygen
+        run: |
+          sudo apt-get install -y doxygen graphviz
+
+      # Step 4: Generate Documentation
+      - name: Generate Documentation
+        run: |
+          doxygen Doxyfile
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
