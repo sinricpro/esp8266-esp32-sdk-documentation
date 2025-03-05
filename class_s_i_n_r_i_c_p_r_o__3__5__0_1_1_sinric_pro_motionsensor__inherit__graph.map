@@ -1,0 +1,13 @@
+<map id="SinricProMotionsensor" name="SinricProMotionsensor">
+<area shape="rect" id="Node000001" title="Device to report motion detection events." alt="" coords="736,63,903,88"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_sinric_pro_device.html" title="Base class for all device types." alt="" coords="481,5,605,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="619,28,687,41,770,60,768,65,686,46,618,33"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_push_notification.html" title=" " alt="" coords="454,55,633,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="646,73,736,73,736,78,646,78"/>
+<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_push_notification.html" title="PushNotification." alt="" coords="5,63,172,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,73,454,73,454,78,186,78"/>
+<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_motion_sensor.html" title=" " alt="" coords="400,120,687,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="633,115,686,105,768,85,770,91,687,110,634,120"/>
+<area shape="rect" id="Node000006" href="$class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_motion_sensor.html" title="MotionSensor." alt="" coords="14,120,163,145"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="177,130,400,130,400,135,177,135"/>
+</map>

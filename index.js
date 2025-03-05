@@ -1,24 +1,27 @@
 var index =
 [
-    [ "Note", "index.html#autotoc_md1", null ],
-    [ "Installation", "index.html#autotoc_md2", [
-      [ "VS Code & PlatformIO:", "index.html#autotoc_md3", null ],
-      [ "ArduinoIDE", "index.html#autotoc_md4", null ]
+    [ "Installation", "index.html#autotoc_md1", [
+      [ "VS Code & PlatformIO:", "index.html#autotoc_md2", null ],
+      [ "ArduinoIDE", "index.html#autotoc_md3", null ]
     ] ],
-    [ "Dependencies", "index.html#autotoc_md6", null ],
-    [ "Full user documentation", "index.html#autotoc_md8", null ],
-    [ "Examples", "index.html#autotoc_md10", null ],
-    [ "Usage", "index.html#autotoc_md12", [
-      [ "Include SinricPro-Library (SinricPro.h) and SinricPro-Device-Libraries (eg. SinricProSwitch.h)", "index.html#autotoc_md13", null ],
-      [ "Define your credentials from SinricPro-Portal (portal.sinric.pro)", "index.html#autotoc_md14", null ],
-      [ "Define callback routine(s)", "index.html#autotoc_md15", null ],
-      [ "In setup()", "index.html#autotoc_md16", null ],
-      [ "In loop()", "index.html#autotoc_md17", null ]
+    [ "Dependencies", "index.html#autotoc_md5", null ],
+    [ "Full user documentation", "index.html#autotoc_md7", null ],
+    [ "Examples", "index.html#autotoc_md9", null ],
+    [ "Usage", "index.html#autotoc_md11", [
+      [ "Include SinricPro-Library (SinricPro.h) and SinricPro-Device-Libraries (eg. SinricProSwitch.h)", "index.html#autotoc_md12", null ],
+      [ "Define your credentials from SinricPro-Portal (portal.sinric.pro)", "index.html#autotoc_md13", null ],
+      [ "Define callback routine(s)", "index.html#autotoc_md14", null ],
+      [ "In setup()", "index.html#autotoc_md15", null ],
+      [ "In loop()", "index.html#autotoc_md16", null ]
     ] ],
-    [ "How to add a device?", "index.html#autotoc_md19", null ],
-    [ "How to retrieve a device for sending an event?", "index.html#autotoc_md21", null ],
-    [ "How to send a push notification?", "index.html#autotoc_md22", null ],
-    [ "Devices", "index.html#autotoc_md24", [
-      [ "* Custom devices", "index.html#autotoc_md25", null ]
-    ] ]
+    [ "How to add a device?", "index.html#autotoc_md18", null ],
+    [ "How to retrieve a device for sending an event?", "index.html#autotoc_md20", null ],
+    [ "How to send a push notification?", "index.html#autotoc_md21", null ],
+    [ "Device Types", "index.html#autotoc_md23", [
+      [ "Other", "index.html#autotoc_md24", null ]
+    ] ],
+    [ "* <a href=\"https://github.com/sinricpro/esp8266-esp32-sdk/tree/master/examples/Health\" >Health</a>", "index.html#autotoc_md25", null ],
+    [ "Licensing and Credits", "index.html#autotoc_md26", null ],
+    [ "Support for other boards", "index.html#autotoc_md27", null ],
+    [ "Join the community!", "index.html#autotoc_md28", null ]
 ];
