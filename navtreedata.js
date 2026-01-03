@@ -26,9 +26,11 @@ var NAVTREE =
 [
   [ "SinricPro Library", "index.html", [
     [ "SinricPro (ESP8266 / ESP32 / RP2040)", "index.html", "index" ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Topics", "topics.html", "topics" ],
     [ "Namespace Members", "namespacemembers.html", [
       [ "All", "namespacemembers.html", null ],
+      [ "Functions", "namespacemembers_func.html", null ],
       [ "Typedefs", "namespacemembers_type.html", null ]
     ] ],
     [ "Classes", "annotated.html", [
@@ -46,7 +48,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_start_stop_controller.html"
+"class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_start_stop_controller.html#a1057a62736bd828a6c6b481093c934dc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

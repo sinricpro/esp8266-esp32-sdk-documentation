@@ -1,0 +1,11 @@
+<map id="TemperatureSensor&lt; T &gt;" name="TemperatureSensor&lt; T &gt;">
+<area shape="rect" id="Node000001" title="TemperatureSensor." alt="" coords="5,45,192,70"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_temperature_sensor.html" title=" " alt="" coords="457,5,680,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,47,457,30,457,36,206,53"/>
+<area shape="rect" id="Node000004" href="$class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_temperature_sensor.html" title=" " alt="" coords="482,69,655,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="206,66,216,67,482,83,482,88,216,72,206,71"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_sinric_pro_temperaturesensor.html" title="Device to report actual temperature and humidity." alt="" coords="729,13,933,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="694,23,729,23,729,28,694,28"/>
+<area shape="rect" id="Node000005" href="$class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_sinric_pro_thermostat.html" title="Device to control Thermostat." alt="" coords="754,77,909,102"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="669,87,754,87,754,92,669,92"/>
+</map>

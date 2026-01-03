@@ -110,93 +110,127 @@ $(document).ready(function(){initNavTree('_sinric_pro_module_command_handler_8h_
 <div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;SinricProStrings.h&quot;</span></div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;SinricProNamespace.h&quot;</span></div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="preprocessor">#include &quot;SinricProDebug.h&quot;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">namespace </span>SINRICPRO_NAMESPACE {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>FSTR(OTA, otaUpdateAvailable);  <span class="comment">// &quot;otaUpdateAvailable&quot;</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>FSTR(OTA, url);                 <span class="comment">// &quot;url&quot;</span></div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>FSTR(OTA, version);             <span class="comment">// &quot;version&quot;</span></div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>FSTR(OTA, major);               <span class="comment">// &quot;major&quot;</span></div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>FSTR(OTA, minor);               <span class="comment">// &quot;minor&quot;</span></div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>FSTR(OTA, patch);               <span class="comment">// &quot;patch&quot;</span></div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>FSTR(OTA, forceUpdate);         <span class="comment">// &quot;forceUpdate&quot;</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>FSTR(SETTINGS, setSetting);     <span class="comment">// &quot;setSetting&quot;</span></div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>FSTR(SETTINGS, <span class="keywordtype">id</span>);             <span class="comment">// &quot;id&quot;</span></div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>FSTR(SETTINGS, value);          <span class="comment">// &quot;value&quot;</span></div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>FSTR(INSIGHTS, health);         <span class="comment">// &quot;health&quot;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>FSTR(INSIGHTS, report);         <span class="comment">// &quot;report&quot;</span></div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a593cf68fdf647f6df605998da4547229">OTAUpdateCallbackHandler</a> = std::function&lt;bool(<span class="keyword">const</span> String&amp; url, <span class="keywordtype">int</span> major, <span class="keywordtype">int</span> minor, <span class="keywordtype">int</span> patch, <span class="keywordtype">bool</span> forceUpdate)&gt;;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#ade2205b6ca5620b8f283a5432bb3b701">SetSettingCallbackHandler</a> = std::function&lt;bool(<span class="keyword">const</span> String&amp; <span class="keywordtype">id</span>, <span class="keyword">const</span> String&amp; value)&gt;;</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a5c5f1cca861d6301fabc8691d70fecfb">ReportHealthCallbackHandler</a> = std::function&lt;bool(String&amp; healthReport)&gt;;</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span><span class="keyword">class </span>SinricProModuleCommandHandler {</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>  <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>    SinricProModuleCommandHandler();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    ~SinricProModuleCommandHandler();</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">bool</span> handleRequest(SinricProRequest &amp;request);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">void</span> onOTAUpdate(OTAUpdateCallbackHandler callback);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> onSetSetting(SetSettingCallbackHandler callback);</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> onReportHealth(ReportHealthCallbackHandler callback);</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>  <span class="keyword">private</span>:</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    <a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a593cf68fdf647f6df605998da4547229">OTAUpdateCallbackHandler</a> _otaUpdateCallbackHandler;</div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#ade2205b6ca5620b8f283a5432bb3b701">SetSettingCallbackHandler</a> _setSettingCallbackHandler;</div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a5c5f1cca861d6301fabc8691d70fecfb">ReportHealthCallbackHandler</a> _reportHealthCallbackHandler;</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>};</div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>SinricProModuleCommandHandler::SinricProModuleCommandHandler()</div>
-<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    : _otaUpdateCallbackHandler(nullptr),</div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>     _setSettingCallbackHandler(nullptr),</div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>     _reportHealthCallbackHandler(nullptr) {}</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
-<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>SinricProModuleCommandHandler::~SinricProModuleCommandHandler() {}</div>
-<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span> </div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="keywordtype">void</span> SinricProModuleCommandHandler::onOTAUpdate(OTAUpdateCallbackHandler callback) {</div>
-<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>  _otaUpdateCallbackHandler = callback;</div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>}</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span> </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="keywordtype">void</span> SinricProModuleCommandHandler::onSetSetting(SetSettingCallbackHandler callback) {</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>  _setSettingCallbackHandler = callback;</div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>}</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="keywordtype">void</span> SinricProModuleCommandHandler::onReportHealth(ReportHealthCallbackHandler callback) {</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>  _reportHealthCallbackHandler = callback;</div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>}</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span><span class="keywordtype">bool</span> SinricProModuleCommandHandler::handleRequest(SinricProRequest &amp;request) {</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>  <span class="keywordflow">if</span> (strcmp(FSTR_OTA_otaUpdateAvailable, request.action.c_str()) == 0 &amp;&amp; _otaUpdateCallbackHandler) {</div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>    String url = request.request_value[FSTR_OTA_url];        </div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    <span class="keywordtype">int</span> major  = request.request_value[FSTR_OTA_version][FSTR_OTA_major]; </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">int</span> minor  = request.request_value[FSTR_OTA_version][FSTR_OTA_minor]; </div>
-<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> patch  = request.request_value[FSTR_OTA_version][FSTR_OTA_patch]; </div>
-<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">bool</span> forceUpdate  = request.request_value[FSTR_OTA_version][FSTR_OTA_forceUpdate] | <span class="keyword">false</span>; </div>
-<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordflow">return</span> _otaUpdateCallbackHandler(url, major, minor, patch, forceUpdate);</div>
-<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>  }</div>
-<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(FSTR_SETTINGS_setSetting, request.action.c_str()) == 0 &amp;&amp; _setSettingCallbackHandler) {    </div>
-<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>    String <span class="keywordtype">id</span> = request.request_value[FSTR_SETTINGS_id];</div>
-<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    String value = request.request_value[FSTR_SETTINGS_value];</div>
-<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    <span class="keywordflow">return</span> _setSettingCallbackHandler(<span class="keywordtype">id</span>, value);</div>
-<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>  } </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(FSTR_INSIGHTS_health, request.action.c_str()) == 0 &amp;&amp; _reportHealthCallbackHandler) {    </div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>    String healthReport = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordtype">bool</span> success = _reportHealthCallbackHandler(healthReport);</div>
-<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordflow">if</span> (success) {</div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>      request.response_value[FSTR_INSIGHTS_report] = healthReport;</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>    }</div>
-<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    <span class="keywordflow">return</span> success;</div>
-<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>  }</div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>  <span class="keywordflow">else</span> {</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>     DEBUG_SINRIC(<span class="stringliteral">&quot;[SinricProModuleCommandHandler:handleRequest]: action: %s not supported!\r\n&quot;</span>, request.action.c_str());</div>
-<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>  }</div>
-<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>}</div>
-<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
-<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>} <span class="comment">// SINRICPRO_NAMESPACE</span></div>
-<div class="ttc" id="anamespace_s_i_n_r_i_c_p_r_o__3__5__0_html_a593cf68fdf647f6df605998da4547229"><div class="ttname"><a href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a593cf68fdf647f6df605998da4547229">SINRICPRO_3_5_0::OTAUpdateCallbackHandler</a></div><div class="ttdeci">std::function&lt; bool(const String &amp;url, int major, int minor, int patch, bool enforce)&gt; OTAUpdateCallbackHandler</div><div class="ttdoc">Function signature for OTA update callback.</div><div class="ttdef"><b>Definition</b> SinricPro.h:54</div></div>
-<div class="ttc" id="anamespace_s_i_n_r_i_c_p_r_o__3__5__0_html_a5c5f1cca861d6301fabc8691d70fecfb"><div class="ttname"><a href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a5c5f1cca861d6301fabc8691d70fecfb">SINRICPRO_3_5_0::ReportHealthCallbackHandler</a></div><div class="ttdeci">std::function&lt; bool(String &amp;healthReport)&gt; ReportHealthCallbackHandler</div><div class="ttdoc">Defines a function type for reporting device health status.</div><div class="ttdef"><b>Definition</b> SinricPro.h:80</div></div>
-<div class="ttc" id="anamespace_s_i_n_r_i_c_p_r_o__3__5__0_html_ade2205b6ca5620b8f283a5432bb3b701"><div class="ttname"><a href="namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#ade2205b6ca5620b8f283a5432bb3b701">SINRICPRO_3_5_0::SetSettingCallbackHandler</a></div><div class="ttdeci">std::function&lt; bool(const String &amp;id, const String &amp;value)&gt; SetSettingCallbackHandler</div><div class="ttdoc">Function signature for setting a module setting.</div><div class="ttdef"><b>Definition</b> SinricPro.h:65</div></div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="preprocessor">#include &quot;Capabilities/SettingController.h&quot;</span></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">namespace </span>SINRICPRO_NAMESPACE {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>FSTR(OTA, otaUpdateAvailable);  <span class="comment">// &quot;otaUpdateAvailable&quot;</span></div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>FSTR(OTA, url);                 <span class="comment">// &quot;url&quot;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>FSTR(OTA, version);             <span class="comment">// &quot;version&quot;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>FSTR(OTA, major);               <span class="comment">// &quot;major&quot;</span></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>FSTR(OTA, minor);               <span class="comment">// &quot;minor&quot;</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>FSTR(OTA, patch);               <span class="comment">// &quot;patch&quot;</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>FSTR(OTA, forceUpdate);         <span class="comment">// &quot;forceUpdate&quot;</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>FSTR(SETTINGS, setSetting);     <span class="comment">// &quot;setSetting&quot;</span></div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>FSTR(SETTINGS, <span class="keywordtype">id</span>);             <span class="comment">// &quot;id&quot;</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>FSTR(SETTINGS, value);          <span class="comment">// &quot;value&quot;</span></div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>FSTR(INSIGHTS, health);         <span class="comment">// &quot;health&quot;</span></div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>FSTR(INSIGHTS, report);         <span class="comment">// &quot;report&quot;</span></div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a593cf68fdf647f6df605998da4547229">OTAUpdateCallbackHandler</a> = std::function&lt;bool(<span class="keyword">const</span> String&amp; url, <span class="keywordtype">int</span> major, <span class="keywordtype">int</span> minor, <span class="keywordtype">int</span> patch, <span class="keywordtype">bool</span> forceUpdate)&gt;;</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#afb72cce2a32eeb2608b6d4dc40b7572a">SetSettingCallbackHandler</a> = std::function&lt;bool(<span class="keyword">const</span> String&amp; <span class="keywordtype">id</span>, SettingValue&amp; value)&gt;;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span><span class="keyword">using </span><a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a5c5f1cca861d6301fabc8691d70fecfb">ReportHealthCallbackHandler</a> = std::function&lt;bool(String&amp; healthReport)&gt;;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span><span class="keyword">class </span>SinricProModuleCommandHandler {</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>  <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    SinricProModuleCommandHandler();</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>    ~SinricProModuleCommandHandler();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <span class="keywordtype">bool</span> handleRequest(SinricProRequest &amp;request);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    <span class="keywordtype">void</span> onOTAUpdate(OTAUpdateCallbackHandler callback);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>    <span class="keywordtype">void</span> onSetSetting(SetSettingCallbackHandler callback);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <span class="keywordtype">void</span> onReportHealth(ReportHealthCallbackHandler callback);</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>  <span class="keyword">private</span>:</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    <a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a593cf68fdf647f6df605998da4547229">OTAUpdateCallbackHandler</a> _otaUpdateCallbackHandler;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#afb72cce2a32eeb2608b6d4dc40b7572a">SetSettingCallbackHandler</a> _setSettingCallbackHandler;</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    <a class="code hl_typedef" href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a5c5f1cca861d6301fabc8691d70fecfb">ReportHealthCallbackHandler</a> _reportHealthCallbackHandler;</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>};</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>SinricProModuleCommandHandler::SinricProModuleCommandHandler()</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    : _otaUpdateCallbackHandler(nullptr),</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>     _setSettingCallbackHandler(nullptr),</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>     _reportHealthCallbackHandler(nullptr) {}</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>SinricProModuleCommandHandler::~SinricProModuleCommandHandler() {}</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="keywordtype">void</span> SinricProModuleCommandHandler::onOTAUpdate(OTAUpdateCallbackHandler callback) {</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>  _otaUpdateCallbackHandler = callback;</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="keywordtype">void</span> SinricProModuleCommandHandler::onSetSetting(SetSettingCallbackHandler callback) {</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>  _setSettingCallbackHandler = callback;</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>}</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="keywordtype">void</span> SinricProModuleCommandHandler::onReportHealth(ReportHealthCallbackHandler callback) {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>  _reportHealthCallbackHandler = callback;</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>}</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span><span class="keywordtype">bool</span> SinricProModuleCommandHandler::handleRequest(SinricProRequest &amp;request) {</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>  <span class="keywordflow">if</span> (strcmp(FSTR_OTA_otaUpdateAvailable, request.action.c_str()) == 0 &amp;&amp; _otaUpdateCallbackHandler) {</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    String url = request.request_value[FSTR_OTA_url];        </div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>    <span class="keywordtype">int</span> major  = request.request_value[FSTR_OTA_version][FSTR_OTA_major]; </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">int</span> minor  = request.request_value[FSTR_OTA_version][FSTR_OTA_minor]; </div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    <span class="keywordtype">int</span> patch  = request.request_value[FSTR_OTA_version][FSTR_OTA_patch]; </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    <span class="keywordtype">bool</span> forceUpdate = request.request_value[FSTR_OTA_forceUpdate] | <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>    <span class="keywordflow">return</span> _otaUpdateCallbackHandler(url, major, minor, patch, forceUpdate);</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>  }</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(FSTR_SETTINGS_setSetting, request.action.c_str()) == 0 &amp;&amp; _setSettingCallbackHandler) {</div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    String <span class="keywordtype">id</span> = request.request_value[FSTR_SETTINGS_id];</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>    JsonVariant valueVariant = request.request_value[FSTR_SETTINGS_value];</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span> </div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>    SettingValue settingValue;</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00085" name="l00085"></a><span class="lineno">   85</span>    <span class="keywordflow">if</span> (valueVariant.is&lt;<span class="keywordtype">bool</span>&gt;()) {</div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>      settingValue = valueVariant.as&lt;<span class="keywordtype">bool</span>&gt;();</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (valueVariant.is&lt;<span class="keywordtype">float</span>&gt;()) {</div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>      settingValue = valueVariant.as&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (valueVariant.is&lt;<span class="keywordtype">int</span>&gt;()) {</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span>      settingValue = valueVariant.as&lt;<span class="keywordtype">int</span>&gt;();</div>
+<div class="line"><a id="l00091" name="l00091"></a><span class="lineno">   91</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (valueVariant.is&lt;JsonObject&gt;()) {</div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>      String jsonString;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>      serializeJson(valueVariant, jsonString);</div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span>      settingValue = jsonString;</div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (valueVariant.is&lt;<span class="keyword">const</span> <span class="keywordtype">char</span>*&gt;()) {</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>      settingValue = String(valueVariant.as&lt;<span class="keyword">const</span> <span class="keywordtype">char</span>*&gt;());</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    }</div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span>    <span class="keywordtype">bool</span> success = _setSettingCallbackHandler(<span class="keywordtype">id</span>, settingValue);</div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>    request.response_value[FSTR_SETTINGS_id] = id;</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordflow">if</span> (valueVariant.is&lt;JsonObject&gt;()) {</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>      request.response_value[FSTR_SETTINGS_value] = valueVariant;</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::holds_alternative&lt;int&gt;(settingValue)) {</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>      request.response_value[FSTR_SETTINGS_value] = std::get&lt;int&gt;(settingValue);</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::holds_alternative&lt;float&gt;(settingValue)) {</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span>      request.response_value[FSTR_SETTINGS_value] = std::get&lt;float&gt;(settingValue);</div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::holds_alternative&lt;bool&gt;(settingValue)) {</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>      request.response_value[FSTR_SETTINGS_value] = std::get&lt;bool&gt;(settingValue);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (std::holds_alternative&lt;String&gt;(settingValue)) {</div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>      request.response_value[FSTR_SETTINGS_value] = std::get&lt;String&gt;(settingValue);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    }</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno">  115</span>    <span class="keywordflow">return</span> success;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>  } </div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span>  <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(FSTR_INSIGHTS_health, request.action.c_str()) == 0 &amp;&amp; _reportHealthCallbackHandler) {    </div>
+<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>    String healthReport = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">bool</span> success = _reportHealthCallbackHandler(healthReport);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    <span class="keywordflow">if</span> (success) {</div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>      request.response_value[FSTR_INSIGHTS_report] = healthReport;</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>    }</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>    <span class="keywordflow">return</span> success;</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>  }</div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>  <span class="keywordflow">else</span> {</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>     DEBUG_SINRIC(<span class="stringliteral">&quot;[SinricProModuleCommandHandler:handleRequest]: action: %s not supported!\r\n&quot;</span>, request.action.c_str());</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>  }</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>  <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>}</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>} <span class="comment">// SINRICPRO_NAMESPACE</span></div>
+<div class="ttc" id="anamespace_s_i_n_r_i_c_p_r_o__4__0__0_html_a593cf68fdf647f6df605998da4547229"><div class="ttname"><a href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a593cf68fdf647f6df605998da4547229">SINRICPRO_4_0_0::OTAUpdateCallbackHandler</a></div><div class="ttdeci">std::function&lt; bool(const String &amp;url, int major, int minor, int patch, bool enforce)&gt; OTAUpdateCallbackHandler</div><div class="ttdoc">Function signature for OTA update callback.</div><div class="ttdef"><b>Definition</b> SinricPro.h:54</div></div>
+<div class="ttc" id="anamespace_s_i_n_r_i_c_p_r_o__4__0__0_html_a5c5f1cca861d6301fabc8691d70fecfb"><div class="ttname"><a href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a5c5f1cca861d6301fabc8691d70fecfb">SINRICPRO_4_0_0::ReportHealthCallbackHandler</a></div><div class="ttdeci">std::function&lt; bool(String &amp;healthReport)&gt; ReportHealthCallbackHandler</div><div class="ttdoc">Defines a function type for reporting device health status.</div><div class="ttdef"><b>Definition</b> SinricPro.h:80</div></div>
+<div class="ttc" id="anamespace_s_i_n_r_i_c_p_r_o__4__0__0_html_afb72cce2a32eeb2608b6d4dc40b7572a"><div class="ttname"><a href="namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#afb72cce2a32eeb2608b6d4dc40b7572a">SINRICPRO_4_0_0::SetSettingCallbackHandler</a></div><div class="ttdeci">std::function&lt; bool(const String &amp;id, SettingValue &amp;value)&gt; SetSettingCallbackHandler</div><div class="ttdoc">Function signature for setting a module setting.</div><div class="ttdef"><b>Definition</b> SinricPro.h:65</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

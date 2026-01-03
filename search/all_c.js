@@ -1,17 +1,11 @@
 var searchData=
 [
-  ['master_20examples_20health_20health_20a_0',['* &lt;a href=&quot;https://github.com/sinricpro/esp8266-esp32-sdk/tree/master/examples/Health&quot; &gt;Health&lt;/a&gt;',['../index.html#autotoc_md25',1,'']]],
-  ['mediacontrolcallback_1',['MediaControlCallback',['../namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a9e92d9efafd5313ef1b056030655c526',1,'SINRICPRO_3_5_0']]],
-  ['mediacontroller_2',['MediaController',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_media_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['mediacontroller_3c_20sinricprospeaker_20_3e_3',['MediaController&lt; SinricProSpeaker &gt;',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_media_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['mediacontroller_3c_20sinricprotv_20_3e_4',['MediaController&lt; SinricProTV &gt;',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_media_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['modecallback_5',['ModeCallback',['../namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#aa2d0fe1a7983a8ec5e8fb3e69a5af60f',1,'SINRICPRO_3_5_0']]],
-  ['modecontroller_6',['ModeController',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_mode_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['modecontroller_3c_20sinricprospeaker_20_3e_7',['ModeController&lt; SinricProSpeaker &gt;',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_mode_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['motionsensor_8',['MotionSensor',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_motion_sensor.html',1,'SINRICPRO_3_5_0']]],
-  ['motionsensor_3c_20sinricpromotionsensor_20_3e_9',['MotionSensor&lt; SinricProMotionsensor &gt;',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_motion_sensor.html',1,'SINRICPRO_3_5_0']]],
-  ['mutecallback_10',['MuteCallback',['../namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a0e4c9c4ee0b526732bc0a868ac4f2c41',1,'SINRICPRO_3_5_0']]],
-  ['mutecontroller_11',['MuteController',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_mute_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['mutecontroller_3c_20sinricprospeaker_20_3e_12',['MuteController&lt; SinricProSpeaker &gt;',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_mute_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['mutecontroller_3c_20sinricprotv_20_3e_13',['MuteController&lt; SinricProTV &gt;',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_mute_controller.html',1,'SINRICPRO_3_5_0']]]
+  ['libraries_20eg_20sinricproswitch_20h_0',['Include SinricPro-Library (SinricPro.h) and SinricPro-Device-Libraries (eg. SinricProSwitch.h)',['../index.html#autotoc_md12',1,'']]],
+  ['library_20sinricpro_20h_20and_20sinricpro_20device_20libraries_20eg_20sinricproswitch_20h_1',['Include SinricPro-Library (SinricPro.h) and SinricPro-Device-Libraries (eg. SinricProSwitch.h)',['../index.html#autotoc_md12',1,'']]],
+  ['licensing_20and_20credits_2',['Licensing and Credits',['../index.html#autotoc_md26',1,'']]],
+  ['list_3',['Deprecated List',['../deprecated.html',1,'']]],
+  ['lockcontroller_4',['LockController',['../class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_lock_controller.html',1,'SINRICPRO_4_0_0']]],
+  ['lockcontroller_3c_20sinricprolock_20_3e_5',['LockController&lt; SinricProLock &gt;',['../class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_lock_controller.html',1,'SINRICPRO_4_0_0']]],
+  ['lockstatecallback_6',['LockStateCallback',['../namespace_s_i_n_r_i_c_p_r_o__4__0__0.html#a53b5285d1315f98fa2c5dd27c7547ea5',1,'SINRICPRO_4_0_0']]],
+  ['loop_7',['In loop()',['../index.html#autotoc_md16',1,'']]]
 ];

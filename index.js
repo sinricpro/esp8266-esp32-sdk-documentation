@@ -20,7 +20,7 @@ var index =
     [ "Device Types", "index.html#autotoc_md23", [
       [ "Other", "index.html#autotoc_md24", null ]
     ] ],
-    [ "* <a href=\"https://github.com/sinricpro/esp8266-esp32-sdk/tree/master/examples/Health\" >Health</a>", "index.html#autotoc_md25", null ],
+    [ "* <a href=\"https://github.com/sinricpro/esp8266-esp32-sdk/tree/master/examples/Settings\" >Settings</a>", "index.html#autotoc_md25", null ],
     [ "Licensing and Credits", "index.html#autotoc_md26", null ],
     [ "Support for other boards", "index.html#autotoc_md27", null ],
     [ "Join the community!", "index.html#autotoc_md28", null ]

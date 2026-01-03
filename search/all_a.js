@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['keypadcontroller_0',['KeypadController',['../class_s_i_n_r_i_c_p_r_o__3__5__0_1_1_keypad_controller.html',1,'SINRICPRO_3_5_0']]],
-  ['keystrokecallback_1',['KeystrokeCallback',['../namespace_s_i_n_r_i_c_p_r_o__3__5__0.html#a3dd7e26af9b9026ccc6f5328f563a8c3',1,'SINRICPRO_3_5_0']]]
+  ['join_20the_20community_0',['Join the community!',['../index.html#autotoc_md28',1,'']]]
 ];
