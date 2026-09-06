@@ -1,0 +1,7 @@
+<map id="AirQualitySensor&lt; T &gt;" name="AirQualitySensor&lt; T &gt;">
+<area shape="rect" id="Node000001" title="AirQuality." alt="" coords="15,5,184,31"/>
+<area shape="rect" id="Node000002" href="$class_s_i_n_r_i_c_p_r_o__5__0__0_1_1_air_quality_sensor.html" title=" " alt="" coords="8,93,191,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,44,102,93,97,93,97,44"/>
+<area shape="rect" id="Node000003" href="$class_s_i_n_r_i_c_p_r_o__5__0__0_1_1_sinric_pro_air_quality_sensor.html" title="Device to report air quality events." alt="" coords="5,183,193,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,147,102,182,97,182,97,147"/>
+</map>

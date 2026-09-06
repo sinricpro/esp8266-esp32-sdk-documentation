@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['brightnesscontroller_0',['BrightnessController',['../class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_brightness_controller.html',1,'SINRICPRO_4_0_0']]],
-  ['brightnesscontroller_3c_20sinricprolight_20_3e_1',['BrightnessController&lt; SinricProLight &gt;',['../class_s_i_n_r_i_c_p_r_o__4__0__0_1_1_brightness_controller.html',1,'SINRICPRO_4_0_0']]]
+  ['brightnesscontroller_0',['BrightnessController',['../class_s_i_n_r_i_c_p_r_o__5__0__0_1_1_brightness_controller.html',1,'SINRICPRO_5_0_0']]],
+  ['brightnesscontroller_3c_20sinricprolight_20_3e_1',['BrightnessController&lt; SinricProLight &gt;',['../class_s_i_n_r_i_c_p_r_o__5__0__0_1_1_brightness_controller.html',1,'SINRICPRO_5_0_0']]]
 ];

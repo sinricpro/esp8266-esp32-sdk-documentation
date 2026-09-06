@@ -21,7 +21,8 @@ var index =
       [ "Other", "index.html#autotoc_md24", null ]
     ] ],
     [ "* <a href=\"https://github.com/sinricpro/esp8266-esp32-sdk/tree/master/examples/Settings\" >Settings</a>", "index.html#autotoc_md25", null ],
-    [ "Licensing and Credits", "index.html#autotoc_md26", null ],
-    [ "Support for other boards", "index.html#autotoc_md27", null ],
-    [ "Join the community!", "index.html#autotoc_md28", null ]
+    [ "Local Control (LAN/UDP)", "index.html#autotoc_md26", null ],
+    [ "Licensing and Credits", "index.html#autotoc_md28", null ],
+    [ "Support for other boards", "index.html#autotoc_md29", null ],
+    [ "Join the community!", "index.html#autotoc_md30", null ]
 ];
